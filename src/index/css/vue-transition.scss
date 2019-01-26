@@ -1,0 +1,100 @@
+.mask-fade {
+  &-leave {
+    &-active {
+      transition: opacity 3s 1s;
+    }
+    &-to {
+      opacity: 0;
+    }
+  }
+}
+.title-fade {
+  &-enter {
+    opacity: 0;
+    &-active {
+      transition: opacity 2s;
+    }
+  }
+}
+.cover-end-fade {
+  &-enter {
+    opacity: 0;
+    &-active {
+      transition: opacity 1s;
+    }
+  }
+}
+
+
+
+
+
+.anchor-slide {
+  &-enter-active, &-leave-active {
+    transition: height 0.5s;
+  }
+  &-enter, &-leave-to {
+    height: 0px;
+  }
+}
+.list-fade {
+  &-enter-active, &-leave-active {
+    transition: opacity 0.5s;
+  }
+  &-enter, &-leave-to {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+.photo-fade {
+  &-enter-active {
+    transition: opacity 0.5s 0.25s;
+  }
+  &-leave-active {
+    transition: opacity 0.5s;
+  }
+  &-enter, &-leave-to {
+    opacity: 0;
+  }
+}
+.caption-fade {
+  // CONFUSED caption don't need delay 0.7s (0.5 + 0.2), why?
+  &-enter-active, &-leave-active {
+    transition: opacity 0.25s 0.5s;
+  }
+  &-enter, &-leave-to {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+.final-text-fade {
+  &-leave {
+    &-active {
+      transition: opacity 2s 1s;
+    }
+
+    &-to {
+      opacity: 0;
+    }
+  }
+}
+.youtube-fade {
+  &-enter {
+    opacity: 0;
+    &-active {
+      transition: opacity 2s;
+    }
+
+    &-to {
+      opacity: 1;
+    }
+  }
+}

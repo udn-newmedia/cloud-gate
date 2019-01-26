@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  position: relative;
+  // overflow: hidden;
+  // @media screen and (min-width: 576px) {
+  //   overflow: hidden;
+  // }
+}
+
+html {
+  font-size: 10px !important;
+  font-family: "Helvetica Neue", Arial, "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+.of-v {
+  overflow: visible;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
